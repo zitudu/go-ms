@@ -20,14 +20,14 @@ const (
 )
 
 var (
-	// ErrTooLong input lenght is over than 100 chars
+	// ErrTooLong input length is over than 100 chars
 	ErrTooLong = errors.New("input is over than 100 charactors")
 	// ErrInvalidFormat invalid format
 	ErrInvalidFormat = errors.New("invalid ms format")
 	// ErrNaN ms is NaN
 	ErrNaN = errors.New("ms is NaN")
 	// ErrInfinity ms is infinity
-	ErrInfinity = errors.New("ms is NaN")
+	ErrInfinity = errors.New("ms is infinity")
 )
 
 var regex *regexp.Regexp

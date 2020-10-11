@@ -14,6 +14,8 @@ Use this package to easily convert various time formats to milliseconds. Based o
 ```go
 import "github.com/zitudu/go-ms"
 
-age, err := ms.Parse("30days")
-expiresIn := ms.MustParse("30days")
+age, err := ms.Parse("30days") // 2592000000.000000
+expiresIn := ms.MustParse("20 hrs") // 72000000.000000
+ms.FormatShort(60000) // 1m
+ms.FormatLong(-3 * 60000) // -3 minutes
 ```
