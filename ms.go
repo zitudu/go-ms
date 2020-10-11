@@ -21,7 +21,7 @@ const (
 
 var (
 	// ErrTooLong input length is over than 100 chars
-	ErrTooLong = errors.New("input is over than 100 charactors")
+	ErrTooLong = errors.New("input is over than 100 characters")
 	// ErrInvalidFormat invalid format
 	ErrInvalidFormat = errors.New("invalid ms format")
 	// ErrNaN ms is NaN
