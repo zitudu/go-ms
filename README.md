@@ -19,3 +19,7 @@ expiresIn := ms.MustParse("20 hrs") // 72000000.000000
 ms.FormatShort(60000) // 1m
 ms.FormatLong(-3 * 60000) // -3 minutes
 ```
+
+## License
+
+MIT
