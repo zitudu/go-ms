@@ -7,7 +7,9 @@ Use this package to easily convert various time formats to milliseconds. This is
 
 ## Install
 
-`go get github.com/zitudu/go-ms`
+Requires Go 1.11 and above. Run this command
+
+    go get github.com/zitudu/go-ms
 
 ## Usage
 
